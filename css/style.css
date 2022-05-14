@@ -31,7 +31,7 @@ body{
   margin-right: 30px;
 }
 .copyright{
-  color: #c3cbe2;
+  color: #1e1d1d;
   margin: 50px auto 5px auto;
   font-size: 0.6rem;
   display: inline;
@@ -109,7 +109,7 @@ body{
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  padding: 65px;
+  padding: 60px;
   font-size: 1rem;
 }
 .footer-link:hover{
