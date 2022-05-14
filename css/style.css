@@ -32,15 +32,17 @@ body{
 }
 .copyright{
   color: #1e1d1d;
-  margin: 30px auto 0 auto;
-  font-size: 0.6rem;
+  margin: 50px auto 5px auto;
+  font-size: 0.7rem;
+  display: inline;
   font-weight: lighter;
   font-family:monospace;
 }
 .contact-text{
   margin:0 auto 0 auto;
   line-height: 2;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  width: 80%;
 }
 .contact-me{
   background: #1e1e1e;
@@ -60,13 +62,13 @@ body{
   line-height: 2;
   margin:100px auto 100px auto;
   text-align: right;
-  width:60%;
+  width:75%;
 }
 .certificate-row2{
   line-height: 2;
   margin:100px auto 100px auto;
   text-align: left;
-  width:60%;
+  width:75%;
 }
 .certificate-btn{
   text-decoration: none;
@@ -108,7 +110,7 @@ body{
   font-family: sans-serif;
   font-weight: bold;
   margin: 25px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
@@ -148,7 +150,7 @@ hr{
 .hobby-icon{
   padding: 20px 0 20px 0;
   width: 90px;
-  margin: 30px;
+  margin: 50px;
 }
 .light-text{
   font-weight: lighter;
@@ -186,11 +188,12 @@ p{
   line-height: 2;
   margin:100px auto 100px auto;
   text-align: left;
-  width:60%;
+  width:75%;
 }
 .third{
   background-image: linear-gradient(#66BFBF,#11999E);
   padding:40px 0 10px 0;
+  line-height: 2;
 }
 .web-icon{
   width:160px;
