@@ -41,7 +41,7 @@ body{
 .contact-text{
   margin:0 auto 0 auto;
   line-height: 2;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   width: 80%;
 }
 .contact-me{
@@ -109,8 +109,8 @@ body{
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  padding: 35px;
-  font-size: 1rem;
+  padding: 25px;
+  font-size: 0.9rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
