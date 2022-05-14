@@ -41,7 +41,7 @@ body{
 .contact-text{
   margin:0 auto 0 auto;
   line-height: 2;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   width: 80%;
 }
 .contact-me{
@@ -90,7 +90,7 @@ body{
   font-family: monospace;
   color: #11999E;
   margin-left: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .first{
   background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjBtb2RlJTIwd2FsbHBhcGVyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
@@ -110,7 +110,7 @@ body{
   font-family: sans-serif;
   font-weight: bold;
   padding: 60px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
@@ -122,10 +122,10 @@ body{
 }
 h1{
   font-family: 'Comic Neue', cursive;
-  font-size: 5.2rem;
-  padding: 80px 30px 30px 20px;
+  font-size: 6rem;
+  padding: 40px 30px 10px 30px;
   width:450px;
-  background: -webkit-linear-gradient(#11999e,#004553,#00e1d6);
+  background: -webkit-linear-gradient(#66BFBF,#11999E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -149,8 +149,8 @@ hr{
 }
 .hobby-icon{
   padding: 20px 0 20px 0;
-  width: 90px;
-  margin: 50px;
+  width: 160px;
+  margin: 30px;
 }
 .light-text{
   font-weight: lighter;
