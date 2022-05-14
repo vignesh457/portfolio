@@ -1,0 +1,181 @@
+a{
+  color: #11999E;
+}
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+.btn{
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: linear-gradient(#11cdd4,#11999E);
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  line-height: 5;
+  color:white;
+  padding: 5px 20px 5px 20px;
+}
+.btn:hover{
+  background-image: linear-gradient(#30e3cb,#2bc4ad);
+}
+.coding-icon{
+  width: 160px;
+  float:left;
+  margin-right: 30px;
+}
+.coursera-icon{
+  width: 160px;
+  float:left;
+  margin-right: 30px;
+}
+.copyright{
+  color: #E0F7FA;
+  margin: 30px auto 0 auto;
+  font-size: 0.6rem;
+  font-weight: lighter;
+  font-family:monospace;
+}
+.contact-text{
+  width:40%;
+  margin:0 auto 0 auto;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.contact-me{
+  background: #1e1e1e;
+  width:80%;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.certificate{
+  background: #1e1e1e;
+  width:80%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.certificate-btn{
+  text-decoration: none;
+  background-image: linear-gradient(#333333,#424242);
+  color:#66BFBF;
+  font-family: sans-serif;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.certificate-btn:hover{
+  color: #bdbdbd;
+  background-image: linear-gradient(#424242,#333333);
+}
+.developer{
+  width: 20rem;
+  font-size:2rem;
+  font-weight: lighter;
+  font-family: monospace;
+  color: #11999E;
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+.first{
+  background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjBtb2RlJTIwd2FsbHBhcGVyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding:80px 10px 50px 10px;
+  margin-bottom: 15px;
+}
+.first-img{
+  float:right;
+  margin-right: 50px;
+  width: 430px;
+}
+.footer-link{
+  color: #006064;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 1.40rem;
+}
+.footer-link:hover{
+  color: #E0F7FA;
+}
+.hackerrank-icon{
+  width: 160px;
+  float:right;
+  margin-right: 30px;
+}
+h1{
+  font-family: 'Comic Neue', cursive;
+  font-size: 5.2rem;
+  padding: 80px 30px 30px 20px;
+  width:450px;
+  background: -webkit-linear-gradient(#11999e,#004553,#00e1d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+  color: #66BFBF;
+  font-size: 2.2rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+h3{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+}
+hr{
+  width: 5%;
+  border: none;
+  border-top: 7px dotted #757575;
+  margin: 80px auto 80px auto;
+}
+.hobby-icon{
+  padding: 10px 50px 10px 50px;
+  width: 90px;
+}
+.light-text{
+  font-weight: lighter;
+  color: #BDBDBD;
+}
+.menu-icon{
+  width:50px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.profile-pic{
+  margin-top: 10px;
+  width:200px;
+  border-radius: 100%;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color:#dbdbdb;
+}
+.skills{
+  background: #1e1e1e;
+  width:80%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.skill-row{
+  line-height: 2;
+  margin:100px auto 100px auto;
+  text-align: left;
+  width:60%;
+}
+.third{
+  background-image: linear-gradient(#66BFBF,#11999E);
+  padding:40px 0 10px 0;
+}
+.web-icon{
+  width:160px;
+  float:right;
+  margin-left: 30px;
+}
