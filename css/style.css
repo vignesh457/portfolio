@@ -33,7 +33,7 @@ body{
 .copyright{
   color: #1e1d1d;
   margin: 50px auto 5px auto;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   display: inline;
   font-weight: lighter;
   font-family:monospace;
@@ -109,8 +109,8 @@ body{
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 25px;
-  font-size: 1.5rem;
+  padding: 35px;
+  font-size: 1rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
