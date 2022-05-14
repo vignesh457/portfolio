@@ -40,7 +40,7 @@ body{
 .contact-text{
   margin:0 auto 0 auto;
   line-height: 2;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .contact-me{
   background: #1e1e1e;
@@ -107,8 +107,8 @@ body{
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 30px;
-  font-size: 1.40rem;
+  margin: 25px;
+  font-size: 1.7rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
@@ -137,6 +137,7 @@ h3{
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
   color: #11999E;
+  font-size: 1.5rem;
 }
 hr{
   width: 5%;
@@ -172,6 +173,7 @@ p{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color:#dbdbdb;
+  font-size: 1.2rem;
 }
 .skills{
   background: #1e1e1e;
