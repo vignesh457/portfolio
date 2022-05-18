@@ -1,26 +1,11 @@
 a{
   color: #11999E;
+  text-decoration: none;
 }
 body{
   margin: 0;
   text-align: center;
   background-color: #0a0a0a;
-  //0a0a0a
-}
-
-.btn{
-  text-decoration: none;
-  font-family: 'Titillium Web', sans-serif;
-  background-image: linear-gradient(#11cdd4,#11999E);
-  font-weight: bold;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  line-height: 5;
-  color:white;
-  padding: 5px 20px 5px 20px;
-}
-.btn:hover{
-  background-image: linear-gradient(#30e3cb,#2bc4ad);
 }
 .coding-icon{
   width: 160px;
@@ -35,7 +20,7 @@ body{
 .copyright{
   color: #1e1d1d;
   margin: 50px auto 5px auto;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   display: inline;
   font-weight: lighter;
   font-family:monospace;
@@ -43,7 +28,7 @@ body{
 .contact-text{
   margin:0 auto 0 auto;
   line-height: 2;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   width: 80%;
 }
 .contact-me{
@@ -62,13 +47,13 @@ body{
 }
 .certificate-row1{
   line-height: 2;
-  margin:100px auto 100px auto;
+  margin:50px auto 50px auto;
   text-align: right;
   width:75%;
 }
 .certificate-row2{
   line-height: 2;
-  margin:100px auto 100px auto;
+  margin:50px auto 50px auto;
   text-align: left;
   width:75%;
 }
@@ -91,14 +76,14 @@ body{
   font-size:2rem;
   font-weight: lighter;
   font-family: monospace;
-  color: #0e7b7f;
-  margin: 0 auto 100px auto;
+  color: #085b3d;
+  margin: 0 auto 0 auto;
   padding: 40px;
 }
 .dark-fade{
   background-repeat:no-repeat;
   background-size:cover;
-  padding:150px 0px 50px 0px;
+  padding:150px 0px 90px 0px;
   margin-bottom: 15px;
   background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
 }
@@ -107,6 +92,7 @@ body{
   background-repeat:no-repeat;
   background-size:cover;
   margin-bottom: 15px;
+  text-align: center;
 }
 .first-img{
   float:right;
@@ -118,8 +104,8 @@ body{
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  padding: 40px;
-  font-size: 1rem;
+  padding: 30px;
+  font-size: 1.2rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
@@ -134,12 +120,12 @@ h1{
   font-size: 4.3rem;
   width: 100%;
   margin: 0 auto 0 auto;
-  background: -webkit-linear-gradient(#66BFBF,#084f51);
+  background: -webkit-linear-gradient(#0b7f68,#084f51);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 h2{
-  color: #66BFBF;
+  color: #0b6b77;
   font-size: 2.2rem;
   font-family: sans-serif;
   font-weight: bolder;
@@ -154,7 +140,7 @@ hr{
   width: 5%;
   border: none;
   border-top: 7px dotted #757575;
-  margin: 80px auto 80px auto;
+  margin: 60px auto 60px auto;
 }
 .hobby-icon{
   padding: 20px 0 20px 0;
@@ -186,6 +172,26 @@ p{
   color:#dbdbdb;
   font-size: 1.2rem;
 }
+.resume-btn
+{
+  border-radius: 5px;
+  padding: 10px;
+  background-image: linear-gradient(#0b7f68,#084f51);
+  color: black;
+  font-family:sans-serif;
+  letter-spacing: 1.5px;
+}
+.resume-btn:hover{
+  background-image: linear-gradient(#084f51,#0b7f68);
+}
+.social-icon{
+  width: 50px;
+  padding: 5px;
+  margin-bottom:32px;
+}
+.social-icon:hover{
+  width: 55px;
+}
 .skills{
   background: #1e1e1e;
   width:80%;
@@ -195,13 +201,13 @@ p{
 }
 .skill-row{
   line-height: 2;
-  margin:100px auto 100px auto;
+  margin:50px auto 50px auto;
   text-align: left;
   width:80%;
 }
 .third{
   background-image: linear-gradient(#66BFBF,#11999E);
-  padding:30px;
+  padding:10px;
   line-height: 2;
 }
 .web-icon{
