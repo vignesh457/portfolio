@@ -5,7 +5,9 @@ body{
   margin: 0;
   text-align: center;
   background-color: #0a0a0a;
+  //0a0a0a
 }
+
 .btn{
   text-decoration: none;
   font-family: 'Titillium Web', sans-serif;
@@ -55,7 +57,7 @@ body{
   background: #1e1e1e;
   width:80%;
   margin: 0 auto 0 auto;
-  padding: 20px 0 20px 0;
+  padding: 20px;
   border-radius: 10px;
 }
 .certificate-row1{
@@ -85,19 +87,25 @@ body{
   background-image: linear-gradient(#424242,#333333);
 }
 .developer{
-  width: 20rem;
+  width: 16rem;
   font-size:2rem;
   font-weight: lighter;
   font-family: monospace;
   color: #0e7b7f;
-  margin-left: 0;
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto;
+  padding: 40px;
 }
-.first{
-  background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjBtb2RlJTIwd2FsbHBhcGVyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+.dark-fade{
   background-repeat:no-repeat;
   background-size:cover;
-  padding:80px 10px 50px 10px;
+  padding:150px 0px 50px 0px;
+  margin-bottom: 15px;
+  background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.first{
+  background-image: url("https://wallpaperaccess.com/full/4230797.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
   margin-bottom: 15px;
 }
 .first-img{
@@ -110,8 +118,8 @@ body{
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  padding: 60px;
-  font-size: 0.9rem;
+  padding: 40px;
+  font-size: 1rem;
 }
 .footer-link:hover{
   color: #E0F7FA;
@@ -123,10 +131,10 @@ body{
 }
 h1{
   font-family: 'Comic Neue', cursive;
-  font-size: 6rem;
-  padding: 40px 30px 10px 30px;
-  width:450px;
-  background: -webkit-linear-gradient(#66BFBF,#11999E);
+  font-size: 4.3rem;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background: -webkit-linear-gradient(#66BFBF,#084f51);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -150,15 +158,15 @@ hr{
 }
 .hobby-icon{
   padding: 20px 0 20px 0;
-  width: 160px;
-  margin: 30px;
+  width: 86px;
+  margin: 5%;
 }
 .light-text{
   font-weight: lighter;
   color: #BDBDBD;
 }
 .menu-icon{
-  width:50px;
+  width:40px;
   position: absolute;
   left: 5px;
   top: 5px;
@@ -182,14 +190,14 @@ p{
   background: #1e1e1e;
   width:80%;
   margin: 0 auto 0 auto;
-  padding: 20px 0 20px 0;
+  padding: 15px;
   border-radius: 10px;
 }
 .skill-row{
   line-height: 2;
   margin:100px auto 100px auto;
   text-align: left;
-  width:75%;
+  width:80%;
 }
 .third{
   background-image: linear-gradient(#66BFBF,#11999E);
@@ -200,4 +208,40 @@ p{
   width:160px;
   float:right;
   margin-left: 30px;
+}
+@media all and (max-width:550px)
+{
+  .hackerrank-icon{
+    float:none;
+    margin-left: 0px;
+  }
+  .coursera-icon{
+    float: none;
+    margin-right: 0px;
+  }
+  .certificate-row1{
+    text-align: center;
+  }
+  .certificate-row2{
+    text-align: center;
+  }
+  .coding-icon{
+    float: none;
+    margin-right: 0px;
+  }
+  .web-icon{
+    float: none;
+    margin-left: 0px;
+  }
+  .skill-row{
+    text-align: center;
+  }
+  .hobby-icon{
+    padding: 20px 0 20px 0;
+    width: 86px;
+    margin: 1.2%;
+  }
+  .footer-link{
+    padding:18px;
+  }
 }
